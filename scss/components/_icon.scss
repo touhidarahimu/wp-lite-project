@@ -1,0 +1,29 @@
+#icon{
+    padding: 40px;
+    background-color: #fff;
+   
+   
+    .squre{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        
+        .box{
+            width: 30%;
+            margin-top:20px ;
+            border-radius: 10px;
+            padding: 60px 18px;
+        
+    
+           
+            img{
+                
+               filter: grayscale(100%); 
+                &:hover{
+                    filter: grayscale(0%);  
+                }
+            }
+            
+        }
+    }
+}

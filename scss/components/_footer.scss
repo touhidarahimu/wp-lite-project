@@ -1,0 +1,63 @@
+#footer{
+    padding: 100px;
+    margin-left: 50px;
+    .box{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 50%;
+        .item_1{
+            h1{ padding-top:10px ;
+                width: 200px;
+                color: #4E6770;
+                font-family: Manrope;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: 24px; /* 150% */
+            }
+            p{
+                color: #4E6770;
+                font-family: Manrope;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 24px; /* 150% */
+            }
+            h2{
+                color: #024430;
+                font-family: Manrope;
+                font-size: 18px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 24px; /* 133.333% */
+            }
+           
+        }
+        .item_2{
+            h1{
+                padding: 0px 50px;
+                color: #024430;
+                font-family: Manrope;
+                font-size: 30px;
+                font-weight: 700;
+                
+            }
+            a{
+                color: #4E6770;
+                font-family: Manrope;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 400;
+                
+            }
+        }
+        .icon{
+            display: flex;
+            
+        }
+        
+        }
+   
+ }
+

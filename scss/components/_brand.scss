@@ -1,0 +1,58 @@
+#brand{
+    padding: 100px;
+    background: #CDE2E7;
+    .item{  
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .title{
+            width: 50%;
+            
+             h1{
+                width: 120%;
+                color: #024430;
+    
+
+                font-weight: 700;
+                font-size: 32px;
+                line-height: 44px;
+                }
+             }
+             p{
+                width: 200px;
+                color: #4E6770;
+                font-family: Manrope;
+                font-size: 16px;                
+                font-weight: 500;
+                line-height: 24px; /* 150% */
+             }
+        }
+       
+         .box{
+            margin-bottom: 10px;
+            color: #4E6770;
+                font-family: Manrope;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 24px; /* 150% */
+
+         }
+         .image{
+            overflow: hidden;
+            .pic_1 img{
+                width: 95%;
+            border-radius: 50%;
+            transition: .4s;
+            &:hover{
+                transform: scale(1.2);
+            }
+            }
+     }
+ }
+                
+           
+ 
+         
+
+        

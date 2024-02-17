@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    display: inline-block;
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+img{
+    vertical-align: middle;
+}
+.container{
+    width: 1320px;
+    margin: 0 auto;
+}
+.btn{
+    padding: 15px 24px;
+    color: #FFE7BB;
+    background: #024430;
+    border-radius: 4px;
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: 700
+}
